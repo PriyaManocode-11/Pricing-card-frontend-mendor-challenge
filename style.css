@@ -15,7 +15,7 @@ h3, h4, p {
 
 #card{
   height: 370px;
-  width: 80%;
+  width: 65%;
   box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
   border-radius: 5px;
   overflow: hidden;
