@@ -1,0 +1,129 @@
+html {
+  box-sizing: border-box;
+  font-family: 'karla';
+  font-size: 16px;
+  font-weight: 400
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h3, h4, p {
+  margin: 0;
+}
+
+#card{
+  height: 370px;
+  width: 80%;
+  box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+body {
+  padding: 30px;
+}
+
+#sec-1 {
+  height: 42%;
+  width: 100%;
+  padding: 25px;
+}
+
+#sec-2 {
+  display: inline-block;
+  height: 58%;
+  width: 100%;
+  color: white;
+}
+
+#left-con {
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+  width: 50%;
+  background-color: #2ab2af;
+  padding: 25px;
+}
+
+#right-con {
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+  width: 50%;
+  background-color: #31ccc9;
+  padding: 25px;
+}
+
+#sec-1 h3 {
+  color: #2ab2af;
+  margin-bottom: 15px
+}
+
+#sec-1 h4 {
+  color: #c0df34;
+  margin-bottom: 10px;
+}
+
+#sec-1 p {
+  color: #98a6bd;
+  font-size: 0.9rem
+}
+
+button {
+  color: white;
+  background-color: #c0df34;
+  border: none;
+  padding: 10px;
+  width: 90%;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #D3F52C;
+  transform: scale(1.02);
+}
+
+#price {
+  font-family: 700;
+  font-size: 1.4rem;
+}
+
+#sec-2 h4 {
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+#price, #price-frequency {
+  display: inline-block;
+}
+
+#price-frequency {
+  font-size : 0.8rem;
+  margin-left: 8px;
+  position: relative;
+  top: -2px;
+  opacity: 70%
+}
+
+#pricing-card {
+  margin-bottom: 10px
+}
+
+#left-con p{
+  margin-bottom: 30px;
+  font-size: 0.8rem
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  font-size: 0.8rem;
+  opacity: 85%
+}
+
+li {
+  margin-bottom: 2px
+}
